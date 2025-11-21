@@ -1,0 +1,111 @@
+header{
+    position:fixed;
+    top:0;
+    height:90px;
+    width:100%;
+}
+
+nav{
+    width:100%;
+    height:100%;
+}
+
+nav ul{
+    display:flex;
+    margin:0;
+    height:100%;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+#F1_logo{
+    width:180px;
+}
+
+.menu_contents{
+    display:flex;
+    width:60%;
+}
+
+.menu_contents .results{
+    width:25%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu_contents .results a{
+    font-size: 30px;
+    font-weight:700;
+    text-decoration:none;
+    color:crimson;
+}
+
+body{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+#select_box{
+    --select_box_width:40vw;
+    display:inline-flex;
+    width:var(--select_box_width);
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+#submit{
+    width:100%;
+    height:30px;
+}
+
+.profile{
+    text-align: center;
+    width:18%;
+    height:90px;
+    font-size:20px;
+    background-color: lightgray;
+    border:0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+
+.profile:hover{
+    background-color: aquamarine;
+}
+
+/* .image_box{
+    display: inline-flex;
+    justify-content:right;
+    align-items:center;
+    width:40%;
+    height:100%;
+}
+
+.driver_image{
+    width:50px;
+    height:50px;
+    border-radius: 10px;
+    margin-right: 5px;
+} */
+
+#results_box{
+    --results_box_width:45vw;
+    display:inline-flex;
+    width:var(--results_box_width);
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:30px;
+    align-self: flex-start;
+}
+
+#results_box .profile{
+    background-color: bisque;
+}
+
+#results_box .profile:hover{
+    background-color: aquamarine;
+}
